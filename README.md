@@ -166,6 +166,7 @@ Authorization: Bearer <your_jwt_token>
 }
 ```
 - **Response**: Returns updated transaction object
+![Description of Image](./src/screenshots/Screenshot%20(513).png)
 
 #### 5. Delete Transaction
 - **Endpoint**: `DELETE /transactions/:id`
@@ -189,6 +190,8 @@ Authorization: Bearer <your_jwt_token>
     "balance": 550.00,
 }
 ```
+![Description of Image](./src/screenshots/Screenshot%20(514).png)
+
 ## Screenshots
 - Postman screenshots added in './src/screenshots' file
 
