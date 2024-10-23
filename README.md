@@ -171,7 +171,7 @@ Authorization: Bearer <your_jwt_token>
 #### 5. Delete Transaction
 - **Endpoint**: `DELETE /transactions/:id`
 - **Response**: Returns success message
-![Description of Image](./src/screenshots/Screenshot%20(509).png)
+![Description of Image](./src/screenshots/Screenshot%20(510).png)
 
 
 ### Summary
