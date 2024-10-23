@@ -141,10 +141,6 @@ Authorization: Bearer <your_jwt_token>
 
 #### 2. Get All Transactions
 - **Endpoint**: `GET /transactions`
-- **Query Parameters**:
-  - `startDate`: Filter by start date (YYYY-MM-DD)
-  - `endDate`: Filter by end date (YYYY-MM-DD)
-  - `category`: Filter by category ID
 - **Response**: Returns array of transactions
 
 #### 3. Get Transaction by ID
