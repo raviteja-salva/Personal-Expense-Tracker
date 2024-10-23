@@ -20,8 +20,8 @@ Before running this project, make sure you have the following installed:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/personal-expense-tracker.git
-cd personal-expense-tracker
+git clone https://github.com/raviteja-salva/Personal-Expense-Tracker.git
+cd Personal-Expense-Tracker
 ```
 
 2. Install dependencies
