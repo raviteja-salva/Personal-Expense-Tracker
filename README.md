@@ -70,7 +70,7 @@ Authorization: Bearer <your_jwt_token>
     "userId": "user_id"
 }
 ```
-./src/screenshots/Screenshot%20(505).png
+![Description of Image](./src/screenshots/Screenshot%20(505).png)
 
 ##### 2. User Login
 - **Endpoint**: `POST /api/auth/login`
