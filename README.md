@@ -38,7 +38,7 @@ JWT_SECRET=your_jwt_secret_key
 
 4. Start the server
 ```bash
-npm start
+node server.js
 ```
 
 The API will be available at `http://localhost:3000`
@@ -55,7 +55,7 @@ Authorization: Bearer <your_jwt_token>
 #### Authentication Endpoints
 
 ##### 1. User Signup
-- **Endpoint**: `POST /api/auth/signup`
+- **Endpoint**: `POST /api/auth/register`
 - **Body**:
 ```json
 {
@@ -180,31 +180,7 @@ Authorization: Bearer <your_jwt_token>
     "totalIncome": 1000.00,
     "totalExpenses": 450.00,
     "balance": 550.00,
-    "categorySummary": [
-        {
-            "category": "Groceries",
-            "total": 200.00
-        }
-        // ... other categories
-    ]
 }
-```
-
-## Adding Postman Screenshots
-
-To add Postman screenshots to your repository:
-
-1. Create a `screenshots` directory in your repository:
-```bash
-mkdir screenshots
-```
-
-2. Take screenshots of your Postman requests and responses
-3. Add them to your README using relative paths:
-
-```markdown
-![Login API](./screenshots/login-api.png)
-![Create Transaction](./screenshots/create-transaction.png)
 ```
 
 ## Error Handling
