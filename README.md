@@ -70,6 +70,8 @@ Authorization: Bearer <your_jwt_token>
     "userId": "user_id"
 }
 ```
+![Description of Image](./src/screenshots/Screenshot%20(505).png)
+
 
 ##### 2. User Login
 - **Endpoint**: `POST /api/auth/login`
@@ -87,6 +89,8 @@ Authorization: Bearer <your_jwt_token>
     "userId": "user_id"
 }
 ```
+![Description of Image](./src/screenshots/Screenshot%20(506).png)
+
 
 ### Categories
 
@@ -100,6 +104,7 @@ Authorization: Bearer <your_jwt_token>
 }
 ```
 - **Response**: Returns the created category object
+![Description of Image](./src/screenshots/Screenshot%20(507).png)
 
 #### 2. Get All Categories
 - **Endpoint**: `GET /categories`
@@ -138,14 +143,18 @@ Authorization: Bearer <your_jwt_token>
 }
 ```
 - **Response**: Returns created transaction object
+![Description of Image](./src/screenshots/Screenshot%20(511).png)
+
 
 #### 2. Get All Transactions
 - **Endpoint**: `GET /transactions`
 - **Response**: Returns array of transactions
+![Description of Image](./src/screenshots/Screenshot%20(508).png)
 
 #### 3. Get Transaction by ID
 - **Endpoint**: `GET /transactions/:id`
 - **Response**: Returns single transaction object
+![Description of Image](./src/screenshots/Screenshot%20(509).png)
 
 #### 4. Update Transaction
 - **Endpoint**: `PUT /transactions/:id`
@@ -157,10 +166,13 @@ Authorization: Bearer <your_jwt_token>
 }
 ```
 - **Response**: Returns updated transaction object
+![Description of Image](./src/screenshots/Screenshot%20(513).png)
 
 #### 5. Delete Transaction
 - **Endpoint**: `DELETE /transactions/:id`
 - **Response**: Returns success message
+![Description of Image](./src/screenshots/Screenshot%20(509).png)
+
 
 ### Summary
 
@@ -178,6 +190,8 @@ Authorization: Bearer <your_jwt_token>
     "balance": 550.00,
 }
 ```
+![Description of Image](./src/screenshots/Screenshot%20(514).png)
+
 ## Screenshots
 - Postman screenshots added in './src/screenshots' file
 
